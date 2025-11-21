@@ -5,7 +5,4 @@ services:
     ports:
       - "80:80"
     volumes:
-      - "/home/ec2-user/EAPP/CI_CD_Pipeline_main:/usr/local/apache2/htdocs/"
-      - "logvolume01:/var/log"
-volumes:
-  logvolume01: {}
+      - "/home/ec2-user/EAPP/build/:/usr/local/apache2/htdocs/"
