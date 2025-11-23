@@ -3,6 +3,6 @@ services:
   web:
     build: .
     ports:
-      - "80:80"
+      - "8081:80"
     volumes:
       - "/home/ec2-user/EAPP/build/:/usr/local/apache2/htdocs/"
